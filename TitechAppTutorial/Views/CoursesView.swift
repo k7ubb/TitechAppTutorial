@@ -1,5 +1,5 @@
 //
-//  CourcesView.swift
+//  CoursesView.swift
 //  TitechAppTutorial
 //
 //  Created by 久保田聡 on 2021/05/23.
@@ -7,30 +7,30 @@
 
 import SwiftUI
 
-struct CourcesView: View {
+struct CoursesView: View {
     var body: some View {
-        NavigationView{
-            List{
+        NavigationView {
+            List {
                 NavigationLink(
-                    destination: CourceView(cource: Cources[0]),
+                    destination: CourseView(course: courses[0]),
                     label: {
-                        CourcesRow(cource: Cources[0])
+                        CoursesRow(course: courses[0])
                             .padding(.bottom, 1)
                     }
                 )
                 .listRowInsets(EdgeInsets())
                 NavigationLink(
-                    destination: CourceView(cource: Cources[1]),
+                    destination: CourseView(course: courses[1]),
                     label: {
-                        CourcesRow(cource: Cources[1])
+                        CoursesRow(course: courses[1])
                             .padding(.bottom, 1)
                     }
                 )
                 .listRowInsets(EdgeInsets())
                 NavigationLink(
-                    destination: CourceView(cource: Cources[2]),
+                    destination: CourseView(course: courses[2]),
                     label: {
-                        CourcesRow(cource: Cources[2])
+                        CoursesRow(course: courses[2])
                             .padding(.bottom, 1)
                     }
                 )
@@ -41,8 +41,8 @@ struct CourcesView: View {
     }
 }
 
-struct CourcesView_Previews: PreviewProvider {
+struct CoursesView_Previews: PreviewProvider {
     static var previews: some View {
-        CourcesView()
+        CoursesView()
     }
 }

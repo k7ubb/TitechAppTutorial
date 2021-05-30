@@ -8,26 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		BA66DE792659ED8F004CDD84 /* TitechAppTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66DE782659ED8F004CDD84 /* TitechAppTutorialApp.swift */; };
-		BA66DE7B2659ED8F004CDD84 /* CourceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66DE7A2659ED8F004CDD84 /* CourceRow.swift */; };
+		BA66DE7B2659ED8F004CDD84 /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66DE7A2659ED8F004CDD84 /* CourseRow.swift */; };
 		BA66DE7D2659ED90004CDD84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA66DE7C2659ED90004CDD84 /* Assets.xcassets */; };
 		BA66DE802659ED90004CDD84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA66DE7F2659ED90004CDD84 /* Preview Assets.xcassets */; };
-		BA66DE88265A0CCD004CDD84 /* CourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66DE87265A0CCD004CDD84 /* CourceView.swift */; };
-		BA66DE8A265A3C4E004CDD84 /* CourcesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66DE89265A3C4E004CDD84 /* CourcesRow.swift */; };
-		BA66DE8C265A456D004CDD84 /* CourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66DE8B265A456D004CDD84 /* CourcesView.swift */; };
-		BA66DE8E265A45C7004CDD84 /* Cource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66DE8D265A45C7004CDD84 /* Cource.swift */; };
+		BA66DE88265A0CCD004CDD84 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66DE87265A0CCD004CDD84 /* CourseView.swift */; };
+		BA66DE8A265A3C4E004CDD84 /* CoursesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66DE89265A3C4E004CDD84 /* CoursesRow.swift */; };
+		BA66DE8C265A456D004CDD84 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66DE8B265A456D004CDD84 /* CoursesView.swift */; };
+		BA66DE8E265A45C7004CDD84 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66DE8D265A45C7004CDD84 /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA66DE752659ED8F004CDD84 /* TitechAppTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitechAppTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA66DE782659ED8F004CDD84 /* TitechAppTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitechAppTutorialApp.swift; sourceTree = "<group>"; };
-		BA66DE7A2659ED8F004CDD84 /* CourceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourceRow.swift; sourceTree = "<group>"; };
+		BA66DE7A2659ED8F004CDD84 /* CourseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRow.swift; sourceTree = "<group>"; };
 		BA66DE7C2659ED90004CDD84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA66DE7F2659ED90004CDD84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA66DE812659ED90004CDD84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA66DE87265A0CCD004CDD84 /* CourceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourceView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
-		BA66DE89265A3C4E004CDD84 /* CourcesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourcesRow.swift; sourceTree = "<group>"; };
-		BA66DE8B265A456D004CDD84 /* CourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourcesView.swift; sourceTree = "<group>"; };
-		BA66DE8D265A45C7004CDD84 /* Cource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cource.swift; sourceTree = "<group>"; };
+		BA66DE87265A0CCD004CDD84 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		BA66DE89265A3C4E004CDD84 /* CoursesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesRow.swift; sourceTree = "<group>"; };
+		BA66DE8B265A456D004CDD84 /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
+		BA66DE8D265A45C7004CDD84 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BA66DE782659ED8F004CDD84 /* TitechAppTutorialApp.swift */,
-				BA66DE7A2659ED8F004CDD84 /* CourceRow.swift */,
-				BA66DE87265A0CCD004CDD84 /* CourceView.swift */,
-				BA66DE89265A3C4E004CDD84 /* CourcesRow.swift */,
-				BA66DE8B265A456D004CDD84 /* CourcesView.swift */,
-				BA66DE8D265A45C7004CDD84 /* Cource.swift */,
+				BAADAFFE266390AE00E3FB0E /* Model */,
+				BAADAFFD2663909800E3FB0E /* Views */,
 				BA66DE7C2659ED90004CDD84 /* Assets.xcassets */,
 				BA66DE812659ED90004CDD84 /* Info.plist */,
 				BA66DE7E2659ED90004CDD84 /* Preview Content */,
@@ -79,6 +76,25 @@
 				BA66DE7F2659ED90004CDD84 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BAADAFFD2663909800E3FB0E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA66DE7A2659ED8F004CDD84 /* CourseRow.swift */,
+				BA66DE87265A0CCD004CDD84 /* CourseView.swift */,
+				BA66DE89265A3C4E004CDD84 /* CoursesRow.swift */,
+				BA66DE8B265A456D004CDD84 /* CoursesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BAADAFFE266390AE00E3FB0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA66DE8D265A45C7004CDD84 /* Course.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,12 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA66DE88265A0CCD004CDD84 /* CourceView.swift in Sources */,
-				BA66DE7B2659ED8F004CDD84 /* CourceRow.swift in Sources */,
+				BA66DE88265A0CCD004CDD84 /* CourseView.swift in Sources */,
+				BA66DE7B2659ED8F004CDD84 /* CourseRow.swift in Sources */,
 				BA66DE792659ED8F004CDD84 /* TitechAppTutorialApp.swift in Sources */,
-				BA66DE8A265A3C4E004CDD84 /* CourcesRow.swift in Sources */,
-				BA66DE8E265A45C7004CDD84 /* Cource.swift in Sources */,
-				BA66DE8C265A456D004CDD84 /* CourcesView.swift in Sources */,
+				BA66DE8A265A3C4E004CDD84 /* CoursesRow.swift in Sources */,
+				BA66DE8E265A45C7004CDD84 /* Course.swift in Sources */,
+				BA66DE8C265A456D004CDD84 /* CoursesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

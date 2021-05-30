@@ -1,5 +1,5 @@
 //
-//  Cource.swift
+//  Course.swift
 //  TitechAppTutorial
 //
 //  Created by 久保田聡 on 2021/05/23.
@@ -7,22 +7,22 @@
 
 import Foundation
 
-struct Content{
-    var title: String
-    var text: String
+struct Content {
+    let title: String
+    let text: String
 }
 
-struct Cource{
-    var title: String
-    var description: String
-    var startTime: String
-    var endTime: String
-    var classRoom: String
-    var content: [Content]
+struct Course {
+    let title: String
+    let description: String
+    let startTime: String
+    let endTime: String
+    let classRoom: String
+    let content: [Content]
 }
 
-var Cources = [
-    Cource(
+let courses = [
+    Course(
         title: "力学1",
         description: "Week 1 Description",
         startTime: "09:00",
@@ -34,7 +34,7 @@ var Cources = [
             Content(title: "zoom録画", text: "URL")
         ]
     ),
-    Cource(
+    Course(
         title: "電磁気学2",
         description: "Week 2 Description",
         startTime: "09:00",
@@ -46,7 +46,7 @@ var Cources = [
             Content(title: "zoom録画", text: "URL")
         ]
     ),
-    Cource(
+    Course(
         title: "化学1",
         description: "Week 3 Description",
         startTime: "16:15",
